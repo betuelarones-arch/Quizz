@@ -162,7 +162,7 @@ export default function App() {
           <h2 className="text-2xl sm:text-3xl font-bold text-white text-center mb-6">Selecciona una Semana</h2>
           <button onClick={() => iniciarQuiz(1)} className="w-full bg-white hover:bg-gray-50 text-purple-700 font-bold p-4 sm:p-5 rounded-xl transition-all duration-300 shadow-lg hover:scale-[1.02] text-base sm:text-lg">✅ Semana 1 (20 preguntas)</button>
           <button onClick={() => iniciarQuiz(2)} className="w-full bg-white hover:bg-gray-50 text-purple-700 font-bold p-4 sm:p-5 rounded-xl transition-all duration-300 shadow-lg hover:scale-[1.02] text-base sm:text-lg">✅ Semana 2 (20 preguntas)</button>
-          <button onClick={() => iniciarQuiz(3)} className="w-full bg-white hover:bg-gray-50 text-purple-700 font-bold p-4 sm:p-5 rounded-xl transition-all duration-300 shadow-lg hover:scale-[1.02] text-base sm:text-lg">✅ Semana 3 (20 preguntas)</button>
+          <button onClick={() => iniciarQuiz(3)} className="w-full bg-white hover:bg-gray-50 text-purple-700 font-bold p-4 sm:p-5 rounded-xl transition-all duration-300 shadow-lg hover:scale-[1.02] text-base sm:text-lg">✅ Semana 3 (25 preguntas)</button>
         </div>
       </div>
     );
